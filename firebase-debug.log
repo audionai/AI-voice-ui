@@ -1,0 +1,83 @@
+[debug] [2024-10-23T13:23:40.474Z] ----------------------------------------------------------------------
+[debug] [2024-10-23T13:23:40.509Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-10-23T13:23:40.511Z] CLI Version:   13.22.1
+[debug] [2024-10-23T13:23:40.512Z] Platform:      win32
+[debug] [2024-10-23T13:23:40.512Z] Node Version:  v22.9.0
+[debug] [2024-10-23T13:23:40.515Z] Time:          Wed Oct 23 2024 06:23:40 GMT-0700 (Pacific Daylight Time)
+[debug] [2024-10-23T13:23:40.516Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-23T13:23:40.583Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-23T13:23:40.589Z] > authorizing via signed-in user (mikilezen@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\dell\Documents\ln
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-10-23T13:23:50.702Z] Checked if tokens are valid: true, expires at: 1729692682673
+[debug] [2024-10-23T13:23:50.703Z] Checked if tokens are valid: true, expires at: 1729692682673
+[debug] [2024-10-23T13:23:50.709Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-10-23T13:23:53.535Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-10-23T13:23:53.535Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project mava-31e7a (Mava) 
+[info] 
+=== Functions Setup
+[debug] [2024-10-23T13:24:04.041Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-23T13:24:04.042Z] > authorizing via signed-in user (mikilezen@gmail.com)
+[debug] [2024-10-23T13:24:04.042Z] [iam] checking project mava-31e7a for permissions ["firebase.projects.get"]
+[debug] [2024-10-23T13:24:04.043Z] Checked if tokens are valid: true, expires at: 1729692682673
+[debug] [2024-10-23T13:24:04.043Z] Checked if tokens are valid: true, expires at: 1729692682673
+[debug] [2024-10-23T13:24:04.044Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/mava-31e7a:testIamPermissions [none]
+[debug] [2024-10-23T13:24:04.044Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/mava-31e7a:testIamPermissions x-goog-quota-user=projects/mava-31e7a
+[debug] [2024-10-23T13:24:04.045Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mava-31e7a:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-10-23T13:24:04.854Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/mava-31e7a:testIamPermissions 200
+[debug] [2024-10-23T13:24:04.855Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mava-31e7a:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-10-23T13:24:04.856Z] Checked if tokens are valid: true, expires at: 1729692682673
+[debug] [2024-10-23T13:24:04.856Z] Checked if tokens are valid: true, expires at: 1729692682673
+[debug] [2024-10-23T13:24:04.856Z] Checked if tokens are valid: true, expires at: 1729692682673
+[debug] [2024-10-23T13:24:04.856Z] Checked if tokens are valid: true, expires at: 1729692682673
+[debug] [2024-10-23T13:24:04.857Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/cloudfunctions.googleapis.com [none]
+[debug] [2024-10-23T13:24:04.857Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/mava-31e7a
+[debug] [2024-10-23T13:24:04.860Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/runtimeconfig.googleapis.com [none]
+[debug] [2024-10-23T13:24:04.861Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/mava-31e7a
+[debug] [2024-10-23T13:24:10.176Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/cloudfunctions.googleapis.com 200
+[debug] [2024-10-23T13:24:10.177Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2024-10-23T13:24:10.178Z] Checked if tokens are valid: true, expires at: 1729692682673
+[debug] [2024-10-23T13:24:10.178Z] Checked if tokens are valid: true, expires at: 1729692682673
+[debug] [2024-10-23T13:24:10.178Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2024-10-23T13:24:10.179Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/cloudfunctions.googleapis.com:enable x-goog-quota-user=projects/mava-31e7a
+[debug] [2024-10-23T13:24:10.783Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/runtimeconfig.googleapis.com 200
+[debug] [2024-10-23T13:24:10.784Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2024-10-23T13:24:10.951Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2024-10-23T13:24:10.951Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/cloudfunctions.googleapis.com:enable [omitted]
+[debug] [2024-10-23T13:24:20.955Z] Checked if tokens are valid: true, expires at: 1729692682673
+[debug] [2024-10-23T13:24:20.955Z] Checked if tokens are valid: true, expires at: 1729692682673
+[debug] [2024-10-23T13:24:20.956Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/cloudfunctions.googleapis.com [none]
+[debug] [2024-10-23T13:24:20.956Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/mava-31e7a
+[debug] [2024-10-23T13:24:23.046Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/cloudfunctions.googleapis.com 200
+[debug] [2024-10-23T13:24:23.046Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/mava-31e7a/services/cloudfunctions.googleapis.com [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] +  Wrote functions/package.json 
+[info] +  Wrote functions/tsconfig.json 
+[info] +  Wrote functions/src/index.ts 
+[info] +  Wrote functions/.gitignore 

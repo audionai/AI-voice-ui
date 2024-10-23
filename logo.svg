@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="103px" height="100px" viewBox="0 0 103 100" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient gradientUnits="objectBoundingBox" cx="23.809525%" cy="9.523809%" fx="23.809525%" fy="9.523809%" r="55.549835%" gradientTransform="translate(0.23809524,0.0952381),rotate(48.270493),translate(-0.23809524,-0.0952381)" id="gradient_1">
+      <stop offset="0%" stop-color="#D41837" />
+      <stop offset="100%" stop-color="#D9048B" />
+    </radialGradient>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0" />
+      <feOffset dx="0" dy="0" />
+      <feGaussianBlur stdDeviation="2" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.49803922 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_2">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0" result="hardAlpha" />
+      <feOffset dx="0" dy="0" />
+      <feGaussianBlur stdDeviation="2" />
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.34901962 0 0 0 0 0 0 0 0 0 0 0 0 0 0.49803922 0" />
+      <feBlend mode="normal" in2="shape" result="effect0_innerShadow" />
+    </filter>
+    <path d="M39.8323 37.8323C39.8323 37.8323 33.4688 31.4688 33.4688 31.4688C29.9025 35.035 27.4739 39.5787 26.49 44.5252C25.5061 49.4717 26.011 54.5989 27.9411 59.2584C29.8711 63.9179 33.1395 67.9005 37.333 70.7025C41.5264 73.5045 46.4566 75 51.5 75C56.5434 75 61.4736 73.5045 65.667 70.7025C69.8605 67.9005 73.1289 63.9179 75.0589 59.2584C76.989 54.5989 77.4939 49.4717 76.51 44.5252C75.5261 39.5787 73.0975 35.035 69.5312 31.4688C69.5312 31.4688 63.1677 37.8323 63.1677 37.8323C65.4753 40.14 67.0468 43.0801 67.6835 46.2809C68.3202 49.4817 67.9934 52.7994 66.7445 55.8145C65.4957 58.8296 63.3807 61.4066 60.6672 63.2197C57.9537 65.0328 54.7635 66.0006 51.5 66.0006C48.2365 66.0006 45.0463 65.0328 42.3328 63.2197C39.6193 61.4066 37.5043 58.8296 36.2555 55.8145C35.0066 52.7994 34.6798 49.4817 35.3165 46.2809C35.9532 43.0801 37.5247 40.14 39.8323 37.8323Z" id="path_1" />
+  </defs>
+  <path d="M0 50C0 22.3858 23.0573 0 51.5 0C79.9427 0 103 22.3858 103 50C103 77.6142 79.9427 100 51.5 100C23.0573 100 0 77.6142 0 50Z" id="Oval" fill="#000000" fill-rule="evenodd" stroke="none" />
+  <g id="Oval" filter="url(#filter_1)">
+    <use stroke="none" fill="url(#gradient_1)" xlink:href="#path_1" fill-rule="evenodd" filter="url(#filter_2)" />
+  </g>
+</svg>
